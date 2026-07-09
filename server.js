@@ -10,7 +10,7 @@ app.use(express.json());
 // Sample endpoint returning DevOps metrics data
 app.get('/api/metrics', (req, res) => {
     res.json({
-        deploymentFrequency: "Lightening Fast Delivery",
+        deploymentFrequency: "5 Times a Day",
         leadTimeForChanges: "< 30 mins",
         timeToRestoreService: "< 5 mins",
         changeFailRate: "< 1%"
